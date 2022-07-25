@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #A2D2FF;
+}
+
+    /* i always wrap my job in a container even if unneccessary */
+
+.main-container{
+    max-width: fit-content;
+    height: 100%;
+}
+
+.nav{
+    background: rgba(0, 0, 0, 0.8); 
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/* i left this out because i didn't see the need */
+
+/* header{
+    background: url(./pexels-photo-118309.jpeg);
+    background-position: center;
+} */
+
+    /* To be honest I had little issues with the image here and I hope to become better with this with time */
+
+.first {
+    align-content: center;
+    /* margin-top: 8em; */
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: url(./pexels-photo-2310641.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.first p{
+    font-size:large;
+    margin-left: 10em;
+    text-align: center;
+
+}
+
+.first h2, p{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.nav h3{
+    margin-top: 10px;
+    font-size: 60px;
+    text-shadow: 6px -4px 4px #fff;
+}
+
+ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+.services{
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: xx-large;
+}
+
+.mid-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+    /* partitioning the 3 boxes equally */
+
+.first-box, .second-box, .third-box{
+    /* align-content: center;
+    justify-content: space-between; */
+    background-color: #ADB5BD;
+    padding: 60px;
+    margin: 20px;
+    /* border: 2px solid  #000 ; */
+    border-radius: 10px;
+    box-shadow: 2px -2px 4px 2px #f4f4f4;
+}
+
+.info{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px -4px 2px green;
+    /* background-color: chocolate; */
+}
+
+.third-container{
+    background-color: #ADB5BD;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    /* width: auto; */
+    margin: 2rem;
+    padding: 20px;
+    /* border: 2px solid #000; */
+    height: 30vh;
+}
+
+figure img{
+    border-radius: 100px;
+}
+
+.second-about{
+
+    padding: 10px;
+    height: 14vh;
+    margin-left: 10em;
+}
+
+.contact-form{
+    display: flex;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 100vh;
+    padding: 30px;
+    align-content: center;
+    justify-content: space-between;
+    margin: 40px 40px 40px 40px;
+    background-color: #748CAB;
+}
+
+.contact{
+    display: block;
+    /* border: 2px solid #005; */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px #000; */
+    width: auto;
+    margin-left: 2em;
+    background-color: #748CAB;
+}
+
+.blk1, .blk2, .blk3, .blk4, .blk5{
+    padding: 20px;
+}
+
+input{
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.SandL{
+    padding: 20px;
+    /* margin: 2em; */
+    display: flex;
+    flex-direction: column;
+}
+
+.inputt{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10em;
+}
+
+.login{
+    margin: 4em;
+    /* border: 2px solid #000  ; */
+    border-radius: 4px;
+    padding: 50px;
+    /* box-shadow: 2px 2px #b2b2b2; */
+    background-color: #748CAB;
+}
+
+.login h2{
+    color: #005;
+    margin-bottom: 1.5em;
+}
+
+button{
+    float: right;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+
+}
+
